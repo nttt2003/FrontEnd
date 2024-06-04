@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8"> <!-- Đặt mã hóa ký tự cho trang web-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Phân tích rủi ro Web</title> <!--Tiêu đề-->
+        <link rel="stylesheet" href="styles.css"> <!--Liên kết tới file css để định dạng giao diện-->
+    </head>
+
+    <body>
+        <header>
+            <h1>Phân tích rủi ro Web</h1>
+            <nav> <!--Thẻ điều hướng chưa danh sách các liên kết-->
+                <ul> <!--Danh sách không có thứ tự, chứa các mục điều hướng-->
+                    <li><a href="#">Trang chủ</a></li> <!--Các liên kết giả-->
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="form-section">
+                <h2>Nhập URL để phân tích</h2>
+                <form id="analysis-form">
+                    <label for="url-input">URL:</label>
+                    <input type="text" id="url-input" name="url" placeholder="Nhập link trang web...">
+                    <button type="submit">Phân tích</button>
+                </form>
+            </section>
+
+            <section class="result-section">
+                <h2>Kết quả phân tích</h2>
+                <div id="analysis-results">
+                    <!--Hiển thị kết quả phân tích-->
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; Phân tích rủi ro web năm 2024 - Học viện Kỹ thuật mật mã</p>
+        </footer>
+
+        <script src="script.js"></script> <!--Liên kết tới file javaScript-->
+    </body>
+</html>

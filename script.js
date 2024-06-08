@@ -19,7 +19,7 @@ document.getElementById("analysis-form").addEventListener("submit", function(eve
 function isValidUrl(url) {
     /* Sử dụng biểu thức chính quy (regex) để kiểm tra xem URL có hợp lệ hay 
     không. Regex kiểm tra định dạng của URL bao gồm giao thức, tên miền, địa chỉ
-     IP, cổng, đường dẫn, query string và fragment.*//
+     IP, cổng, đường dẫn, query string và fragment.*/
     var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
         '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
         '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address

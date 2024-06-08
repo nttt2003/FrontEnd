@@ -7,15 +7,15 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #CCCCFF;
+    background-color: #FFF;
     color: #333;
     margin: 0;
     padding: 0;
 }
 
 header {
-    background-color: #FFCCFF;
-    color: #333;
+    background-color: #333;
+    color: #FFF;
     padding: 20px;
     text-align: center;
 }
@@ -65,8 +65,8 @@ input[type="text"]{
 
 button {
     padding: 10px 20px;
-    background-color: #6699CC;
-    color: #333;
+    background-color: #777;
+    color: #111;
     border: none;
     border-radius: 5px;
     cursor: pointer; /*Đổi con trỏ chuột thành hình ngón tay*/
@@ -88,8 +88,8 @@ button:hover {
 }
 
 footer {
-    background-color: #FFCCFF;
-    color: #333;
+    background-color: #333;
+    color: #FFF;
     text-align: center;
     padding: 20px;
 }
